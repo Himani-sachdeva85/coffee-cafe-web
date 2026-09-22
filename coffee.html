@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Time - Experience the Art of Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="coffee.css">
+    <link rel="stylesheet" href="pages.css">
+</head>
+
+<body>
+    <!-- 1st Section / Hero Header -->
+    <div class="img" id="home">
+        <header class="navbar-header">
+            <div class="logo">
+                <a href="coffee.html">
+                    <img src="images/pngtree-coffee-time-text-symbolizing-relaxation-png-image_14846241.png" alt="Coffee Time Logo">
+                </a>
+            </div>
+            <button class="hamburger-menu" id="hamburger-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="coffee.html" class="active">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li>
+                        <a href="#" id="cart-nav-btn" class="cart-link">
+                            🛒 Cart (<span id="cart-count">0</span>)
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content">
+            <h1>Experience the Art of Coffee</h1>
+            <div class="line" aria-hidden="true"></div>
+            <p>Explore our premium selection of handcrafted coffee beans, brewed to perfection.</p>
+            <a href="menu.html" class="button">Shop Now</a>
+        </div>
+    </div>
+
+    <!-- 2nd Section: Best Sellers -->
+    <div class="section_2" id="menu-preview">
+        <h1>-Best Sellers-</h1>
+        <p>Discover our most popular blends that are loved by <b>coffee enthusiasts</b> worldwide.</p>
+        <div class="cards">
+            <div class="card">
+                <img src="images/pngtree-black-coffee20059075.png" alt="Espresso Blend">
+                <h2>Espresso Blend</h2>
+                <p>Bold, rich, and packed with flavor. Perfect for those who crave an intense coffee experience.</p>
+                <div class="price">
+                    <span>$15.99 / 12 oz</span>
+                    <button class="cart-icon-btn add-to-cart-btn" 
+                            data-id="espresso-blend" 
+                            data-name="Espresso Blend" 
+                            data-price="15.99" 
+                            data-image="images/pngtree-black-coffee20059075.png" 
+                            title="Add to Cart">🛒</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/pngtree-latte-coffee.png" alt="House Blend">
+                <h2>House Blend</h2>
+                <p>A smooth and balanced blend ideal for every occasion. Light medium roast with notes of caramel and chocolate.</p>
+                <div class="price">
+                    <span>$12.99 / 12 oz</span>
+                    <button class="cart-icon-btn add-to-cart-btn" 
+                            data-id="house-blend" 
+                            data-name="House Blend" 
+                            data-price="12.99" 
+                            data-image="images/pngtree-latte-coffee.png" 
+                            title="Add to Cart">🛒</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/pngtree-16394364.png" alt="Cold Brew Concentrate">
+                <h2>Cold Brew Concentrate</h2>
+                <p>Refreshing, smooth, and ready to drink. Perfect for hot days or a quick pick-me-up.</p>
+                <div class="price">
+                    <span>$18.99 / 12 oz</span>
+                    <button class="cart-icon-btn add-to-cart-btn" 
+                            data-id="cold-brew-concentrate" 
+                            data-name="Cold Brew Concentrate" 
+                            data-price="18.99" 
+                            data-image="images/pngtree-16394364.png" 
+                            title="Add to Cart">🛒</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3rd Section: Delivery Banner -->
+    <div class="bg_img">
+        <div class="heading">
+            <h1>Coffee Delivered to Your Door</h1>
+            <div class="underline" aria-hidden="true"></div>
+            <p>Join our coffee club and get your favorite blends delivered to you on your schedule. Choose from weekly, bi-weekly, or monthly options.</p>
+            <a href="menu.html" class="btn">Shop Now</a>
+        </div>
+    </div>
+
+    <!-- 4th Section: About Us -->
+    <div class="section4" id="about">
+        <h1>About Us Our Story</h1>
+        <p>At <b>Coffee Time</b>, we believe that every cup of coffee tells a story. From the sun-drenched hills of<br>
+            Ethiopia to the farms in Colombia, we source the highest-quality beans from around the globe.<br>
+            Our mission is simple: to provide exceptional coffee experiences for every sip.</p>
+
+        <p>Whether you're a seasoned espresso aficionado or a casual coffee drinker, we have a blend that's<br> perfect
+            for you. Our roasting process ensures that each batch is roasted to perfection, bringing<br> out the unique
+            flavors and aromas that make coffee such an exciting beverage.</p>
+        <p class="signature">Coffee Time Team...</p>
+    </div>
+
+    <!-- 5th Section: Services / Why Choose Us -->
+    <div class="section5" id="services">
+        <h1>Why Choose Us?</h1>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img src="images/sustainable icon.png" alt="Sustainably Sourced">
+            <h2>Sustainably Sourced</h2>
+            <p>We partner with farmers who<br> use ethical, sustainable farming <br>practices.</p>
+        </div>
+        <div class="feature">
+            <img src="images/coffee bean.png" alt="Freshly Roasted">
+            <h2>Freshly Roasted</h2>
+            <p>Our beans are roasted in small <br>batches to ensure maximum <br>freshness and flavor.</p>
+        </div>
+        <div class="feature">
+            <img src="images/coffee bags.png" alt="Expertly Crafted">
+            <h2>Expertly Crafted</h2>
+            <p>Each blend is designed to highlight <br>the best qualities of the beans.</p>
+        </div>
+    </div>
+
+    <!-- 6th Section: Feature Product -->
+    <div class="image">
+        <img src="images/pngtree-black-coffee-.png" alt="Espresso Blend Feature">
+        <div class="img_content">
+            <h1>Espresso Blend</h1>
+            <p>Bold, rich, and smooth this espresso blend is perfect for those who enjoy a
+                full-bodied flavorful cup of coffee.</p>
+            <p>Carefully selected beans from Central and South America, roasted to a deep
+                brown, create a satisfying and intense espresso.</p>
+            <h2>Best For:</h2>
+            <p>Espresso, Cappuccino, Lattes</p>
+            <h2>Details:</h2>
+            <div class="list">
+                <dl>
+                    <li>100% Arabica Beans</li>
+                    <li>Roasted in small batches for freshness</li>
+                    <li>Available in 12 oz, 1 lb, and 5 lb options</li>
+                    <li>Price: $15.99 / 12 oz</li>
+                </dl>
+            </div>
+            <div style="margin-top: 15px;">
+                <button class="button add-to-cart-btn" 
+                        data-id="espresso-blend" 
+                        data-name="Espresso Blend" 
+                        data-price="15.99" 
+                        data-image="images/pngtree-black-coffee-.png">Add to Cart - $15.99</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7th Section: Testimonials -->
+    <div class="img_section">
+        <h1>What Our Customer Says</h1>
+        <div class="img_container">
+            <div class="content_sec">
+                <span class="icon">👤</span>
+                <p>"The House Blend is my go-to every morning! Smooth, never bitter. It's the perfect way to start my day."</p>
+                <h2>Emily R.</h2>
+            </div>
+            <div class="content_sec">
+                <span class="icon">👤</span>
+                <p>"I love the espresso blend! It's bold but not overpowering, and it makes the best lattes."</p>
+                <h2>James T.</h2>
+            </div>
+            <div class="content_sec">
+                <span class="icon">👤</span>
+                <p>"The subscription service is a game-changer! Fresh coffee delivered right to my door."</p>
+                <h2>Sarah M.</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- 8th Section: Blog -->
+    <div class="section8">
+        <h1>Read Our Latest Blog</h1>
+        <div class="imgs">
+            <div class="img_card">
+                <img src="images/plnt.jpeg" alt="Coffee Land">
+                <div class="card-content">
+                    <h2>Coffee Land</h2>
+                    <p>Coffee Land blog explores coffee culture,<br>brewing tips, and reviews for<br> passionate coffee enthusiasts.</p>
+                </div>
+            </div>
+            <div class="img_card">
+                <img src="images/coffee-beans bowl.avif" alt="Coffee Beans">
+                <div class="card-content">
+                    <h2>Coffee Beans</h2>
+                    <p>Coffee Beans blog offers expert<br>insights, brewing tips, and reviews for<br>coffee lovers & aficionados.</p>
+                </div>
+            </div>
+            <div class="img_card">
+                <img src="images/homemade-recipe-food-.avif" alt="Coffee Tips">
+                <div class="card-content">
+                    <h2>Coffee Tips</h2>
+                    <p>Coffee Tips blog shares expert<br>advice, brewing techniques, and flavor<br>exploration for coffee enthusiasts.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col brand-col">
+                <div class="footer-logo">
+                    <a href="coffee.html">
+                        <img src="images/pngtree-coffee-time-text-symbolizing-relaxation-png-image_14846241.png" alt="Coffee Time Logo">
+                    </a>
+                </div>
+                <p class="brand-desc">Crafting exceptional coffee experiences with handpicked beans, artisan roasting, and pure passion in every cup.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><span>🌐</span></a>
+                    <a href="#" aria-label="Instagram"><span>📸</span></a>
+                    <a href="#" aria-label="Twitter"><span>🐦</span></a>
+                    <a href="#" aria-label="Pinterest"><span>📌</span></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="coffee.html">Home</a></li>
+                    <li><a href="menu.html">Our Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Our Specialties</h3>
+                <ul>
+                    <li><a href="menu.html">Espresso Blends</a></li>
+                    <li><a href="menu.html">House Roast Beans</a></li>
+                    <li><a href="menu.html">Cold Brew Concentrate</a></li>
+                    <li><a href="menu.html">Artisan Pastries</a></li>
+                    <li><a href="menu.html">Gift Hampers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-col">
+                <h3>Get In Touch</h3>
+                <p><strong>📍 Location:</strong> 123 Coffee Street, Brewtown, USA</p>
+                <p><strong>📞 Phone:</strong> +1 (111) 111-0000</p>
+                <p><strong>✉️ Email:</strong> <a href="mailto:support@coffeetime.com">support@coffeetime.com</a></p>
+                <p><strong>🕒 Hours:</strong> Mon - Sun: 7:00 AM - 9:00 PM</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Coffee Time. All Rights Reserved. Handcrafted with ❤️ for Coffee Lovers.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Modal / Drawer Container -->
+    <div class="cart-modal-overlay" id="cart-modal-overlay">
+        <div class="cart-modal" id="cart-modal">
+            <div class="cart-header">
+                <h2>Your Coffee Cart 🛒</h2>
+                <button class="cart-close-btn" id="cart-close-btn" aria-label="Close cart">&times;</button>
+            </div>
+            <div class="cart-body" id="cart-items-container">
+                <!-- Dynamically populated cart items -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total-row">
+                    <span>Total:</span>
+                    <span id="cart-total-price">$0.00</span>
+                </div>
+                <div class="cart-actions">
+                    <button class="cart-clear-btn" id="cart-clear-btn">Clear Cart</button>
+                    <a href="contact.html" class="cart-checkout-btn">Checkout / Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
